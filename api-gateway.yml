@@ -18,11 +18,10 @@ spring:
           filters:
             - StripPrefix=1
 
-  eureka:
+eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
-
 
 management:
   endpoints:
